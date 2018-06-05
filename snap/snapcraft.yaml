@@ -1,0 +1,11 @@
+apps:
+  test: {command: bin/main}
+confinement: devmode
+description: This is designed to run mostly on jenkins and be able to run before snapcraft
+  to automagically do version control
+grade: devel
+name: test
+parts:
+  my-snap-name: {plugin: python, python-version: python3, source: .}
+summary: Testing generation of snapcraft.yaml on the fly
+version: '20180605'
