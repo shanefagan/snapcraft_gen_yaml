@@ -7,10 +7,10 @@ from setuptools import setup
 
 setup(name='test',
       version='0.1',
-      description='Python Distribution Utilities',
+      description='Bla',
       author='Shane Fagan',
-      author_email='shane.fagan@infosys.com',
-      url='http://infosys.com',
+      author_email='mail@example.com',
+      url='http://example.com',
       license='MIT',
       packages=['bin'],
       install_requires=[],
